@@ -1,0 +1,58 @@
+
+body{
+    margin: 0;
+    padding: 100px;
+    background: #fff;
+    width: auto;
+    height: auto;
+
+    color: #fff;
+    font-family: Arial;
+    font-size: 25px;
+    font-max-size: infinity;
+}
+
+.body{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -40px;
+    bottom: -40px;
+    width: auto;
+    height: auto;
+    background: url(https://images4.alphacoders.com/105/1050317.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+    -webkit-filter: blur(0);
+    z-index: 0;
+}
+
+
+
+.header{
+    position: absolute;
+    top: calc(50% - 35px);
+    left: calc(50% - 255px);
+    z-index: 2;
+}
+
+.header div{
+    float: left;
+    color: #fff;
+    font-family: 'Exo', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+}
+
+.header div span{
+    color: #5379fa !important;
+}
+
+::-webkit-input-placeholder{
+    color: rgba(255,255,255,0.6);
+}
+
